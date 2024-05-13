@@ -1,0 +1,1 @@
+import java.util.*;interface Main {public static void main(String[] s){Scanner sc = new Scanner(System.in);int N=sc.nextInt();String numbers=sc.next();sc.close();int sum=0;for(int i=0;i<N;i++){sum+=Character.getNumericValue(numbers.charAt(i));}System.out.println(sum);}}
