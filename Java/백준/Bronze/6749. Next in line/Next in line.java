@@ -1,0 +1,1 @@
+import java.util.Scanner;class Main{public static void main(String[] z){Scanner sc=new Scanner(System.in);int Y=sc.nextInt();int M=sc.nextInt();int F=M-Y+M;System.out.println(F);}}
