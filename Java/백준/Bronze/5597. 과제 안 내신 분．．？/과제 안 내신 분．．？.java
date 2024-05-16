@@ -1,0 +1,1 @@
+import java.util.Scanner;class Main{public static void main(String[] s){Scanner sc=new Scanner(System.in);boolean[] sub=new boolean[31];for(int i=0;i<28;i++){int std=sc.nextInt();sub[std]=true;}for(int i=1;i<=30;i++){if(!sub[i]){System.out.println(i);}}sc.close();}}
